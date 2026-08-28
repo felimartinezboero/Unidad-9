@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Juego de manos</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="game">
+
+<h1>Piedra, Papel o Tijera</h1>
+<p class="info">Primero en llegar a 3</p>
+
+<div class="score">
+<div class="score-box">
+<h3>Jugador</h3>
+<p id="playerScore">0</p>
+</div>
+
+<div class="middle">:</div>
+
+<div class="score-box">
+<h3>Computadora</h3>
+<p id="computerScore">0</p>
+</div>
+</div>
+
+<div class="status">
+<p id="result">Elegí una opción para jugar</p>
+</div>
+
+<div class="choices">
+
+<button id="rock">🪨</button>
+<button id="paper">📄</button>
+<button id="scissors">✂️</button>
+
+</div>
+
+<div class="details">
+<p id="playerChoice">Jugador: -</p>
+<p id="computerChoice">Computadora: -</p>
+</div>
+
+<button class="reset" id="resetGame">
+Reiniciar juego
+</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

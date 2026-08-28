@@ -1,0 +1,129 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+margin: 0;
+min-height: 100vh;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+font-family: Arial, Helvetica, sans-serif;
+background: #e9e9e9;
+}
+
+.game {
+width: 90%;
+max-width: 500px;
+
+background: #ffffff;
+padding: 30px;
+
+text-align: center;
+
+border-radius: 15px;
+box-shadow: 0 5px 18px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+margin-top: 0;
+margin-bottom: 5px;
+}
+
+.info {
+color: #777;
+margin-bottom: 30px;
+}
+
+.score {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 45px;
+
+margin-bottom: 25px;
+}
+
+.score-box h3 {
+margin: 0 0 5px;
+}
+
+.score-box p {
+margin: 0;
+font-size: 38px;
+font-weight: bold;
+}
+
+.middle {
+font-size: 30px;
+font-weight: bold;
+}
+
+.status {
+min-height: 30px;
+margin-bottom: 25px;
+}
+
+.status p {
+margin: 0;
+font-size: 18px;
+font-weight: bold;
+}
+
+.choices {
+display: flex;
+justify-content: center;
+gap: 15px;
+}
+
+.choices button {
+width: 80px;
+height: 60px;
+
+border: 1px solid #ccc;
+border-radius: 10px;
+
+background: #f7f7f7;
+font-size: 28px;
+
+cursor: pointer;
+}
+
+.choices button:hover {
+background: #dedede;
+}
+
+.details {
+margin-top: 25px;
+padding: 12px;
+
+background: #f1f1f1;
+border-radius: 8px;
+
+line-height: 1.6;
+}
+
+.details p {
+margin: 3px;
+}
+
+.reset {
+margin-top: 20px;
+
+padding: 10px 20px;
+
+border: none;
+border-radius: 8px;
+
+background: #333;
+color: white;
+
+cursor: pointer;
+font-size: 15px;
+}
+
+.reset:hover {
+background: #555;
+}
